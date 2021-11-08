@@ -13,6 +13,8 @@
 		4A765436273998650020A7BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A765435273998650020A7BA /* Preview Assets.xcassets */; };
 		4A765441273998660020A7BA /* CustomSegment_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A765440273998660020A7BA /* CustomSegment_SwiftUITests.swift */; };
 		4A76544C273998660020A7BA /* CustomSegment_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A76544B273998660020A7BA /* CustomSegment_SwiftUIUITests.swift */; };
+		4A76545E273999120020A7BA /* CustomSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A76545D273999110020A7BA /* CustomSegmentView.swift */; };
+		4A765466273999A90020A7BA /* SegmentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A765465273999A90020A7BA /* SegmentTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		4A765447273998660020A7BA /* CustomSegment-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CustomSegment-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A76544B273998660020A7BA /* CustomSegment_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegment_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		4A76544D273998660020A7BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A76545D273999110020A7BA /* CustomSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentView.swift; sourceTree = "<group>"; };
+		4A765465273999A90020A7BA /* SegmentTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 		4A76542D273998630020A7BA /* CustomSegment-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				4A76545C273998FE0020A7BA /* Views */,
 				4A76542E273998630020A7BA /* CustomSegment_SwiftUIApp.swift */,
 				4A765430273998630020A7BA /* ContentView.swift */,
 				4A765432273998650020A7BA /* Assets.xcassets */,
@@ -128,6 +133,15 @@
 				4A76544D273998660020A7BA /* Info.plist */,
 			);
 			path = "CustomSegment-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		4A76545C273998FE0020A7BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A76545D273999110020A7BA /* CustomSegmentView.swift */,
+				4A765465273999A90020A7BA /* SegmentTabView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A765466273999A90020A7BA /* SegmentTabView.swift in Sources */,
 				4A765431273998630020A7BA /* ContentView.swift in Sources */,
+				4A76545E273999120020A7BA /* CustomSegmentView.swift in Sources */,
 				4A76542F273998630020A7BA /* CustomSegment_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
